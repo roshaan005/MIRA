@@ -36,7 +36,7 @@ client.on("messageCreate",(mess)=>{
                 })
                 .then(function(response) {
                 mess.reply(response.data.url);
-                console.log(response.data.url)
+               
                 });
         }
 
